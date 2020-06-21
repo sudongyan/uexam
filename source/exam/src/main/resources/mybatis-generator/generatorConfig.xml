@@ -23,7 +23,7 @@
         </javaTypeResolver>
 
         <!-- domain -->
-        <javaModelGenerator targetPackage="com.alvis.exam.domain"
+        <javaModelGenerator targetPackage="com.dzonesoft.exam.domain"
                             targetProject="D:\Alvis\Free\uexam-mysql\source\exam\src\main\java\">
             <property name="enableSubPackages" value="true"/>
             <property name="trimStrings" value="true"/>
@@ -36,7 +36,7 @@
         </sqlMapGenerator>
 
         <!-- repository -->
-        <javaClientGenerator type="XMLMAPPER" targetPackage="com.alvis.exam.repository"
+        <javaClientGenerator type="XMLMAPPER" targetPackage="com.dzonesoft.exam.repository"
                              targetProject="D:\Alvis\Free\uexam-mysql\source\exam\src\main\java\">
             <property name="enableSubPackages" value="true"/>
         </javaClientGenerator>

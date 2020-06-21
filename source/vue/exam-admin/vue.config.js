@@ -7,19 +7,19 @@ function resolve (dir) {
 
 module.exports = {
   publicPath: './',
-  outputDir: 'admin',
+  outputDir: '../../exam/src/main/resources/static/admin',
   assetsDir: 'static',
   lintOnSave: true,
   productionSourceMap: false,
   devServer: {
     open: true,
     host: 'localhost',
-    port: 8002,
+    port: 9001,
     https: false,
     hotOnly: false,
     proxy: {
       '/api': {
-        target: 'http://localhost:8000',
+        target: 'http://localhost:9001',
         changeOrigin: true
       }
     }
